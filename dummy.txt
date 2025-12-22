@@ -179,3 +179,6 @@ INSERT INTO rooms (room_name, price, location, phone, image) VALUES
 ('Luxury King Suite', 4500, 'Chitwan', '9841230006', '6.jpg'),
 ('Standard Twin Room', 1800, 'Dharan', '9841230007', '7.jpg'),
 ('Mountain View Room', 3200, 'Nagarkot', '9841230008', '8.jpg');
+
+
+PahunaStay

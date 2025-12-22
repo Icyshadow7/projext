@@ -42,7 +42,7 @@ $imgPath = (!empty($profileImg)) ? "uploads/profile/" . $profileImg : "";
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Dashboard | Quick Book</title>
+  <title>PahunaStay </title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -80,10 +80,14 @@ $imgPath = (!empty($profileImg)) ? "uploads/profile/" . $profileImg : "";
       display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.4px;color:#111827;
     }
     .brand-badge{
-      width:38px;height:38px;border-radius:12px;
-      background:linear-gradient(135deg,var(--brand),var(--brand2));
-      box-shadow:0 10px 22px rgba(229,57,0,.25);
-    }
+    
+  width:40px;
+  height:40px;
+  border-radius:14px;
+  background: url("images/lg.png") center / cover no-repeat;
+  box-shadow: 0 12px 30px rgba(229,57,0,.22);
+}
+    
     .pill{
       display:flex;align-items:center;gap:10px;
       background:rgba(255,255,255,.7);
@@ -208,7 +212,7 @@ $imgPath = (!empty($profileImg)) ? "uploads/profile/" . $profileImg : "";
     <div class="topbar">
       <div class="brand">
         <div class="brand-badge"></div>
-        QUICK BOOK
+       PahunaStay
       </div>
 
       <div class="pill">
@@ -248,7 +252,7 @@ $imgPath = (!empty($profileImg)) ? "uploads/profile/" . $profileImg : "";
           <div class="info-card">
             <div class="section-title">
               <h2>Account Details</h2>
-              <span class="hint">Quick Book Profile</span>
+              <span class="hint">PahunaStay Profile</span>
             </div>
 
             <div class="row">
